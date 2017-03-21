@@ -12,7 +12,7 @@ import {
   View
 } from 'react-native';
 
-// import AirBnb from './app/container/indexios';
-import App from './app/container/indexios';
+import AirBnb from './app/container/indexios';
+// import App from './app/container/indexios';
 
-AppRegistry.registerComponent('App', () => App);
+AppRegistry.registerComponent('AirBnb', () => AirBnb);

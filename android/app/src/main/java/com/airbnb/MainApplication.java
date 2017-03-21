@@ -1,4 +1,4 @@
-package com.app;
+package com.airbnb;
 
 import android.app.Application;
 

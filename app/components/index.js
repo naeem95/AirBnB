@@ -18,7 +18,7 @@ import Profile from "./profile";
 import Settings from "./settings";
 import Search from "./search";
 import Trips from "./trips";
-import Wish from "./wish";
+import Save from "./save";
 import EachCity from "./each_city";
 
 var drawerRef = {
@@ -99,9 +99,9 @@ class Root extends Component {
         />
       );
     }
-    if (routeId === "wish") {
+    if (routeId === "save") {
       return (
-        <Wish
+        <Save
           {...this.props}
           data={route.data}
           close={() => this.closeControlPanel()}
@@ -110,7 +110,7 @@ class Root extends Component {
       );
     }
 
-    if (routeId === "settings") {
+    /*if (routeId === "settings") {
       return (
         <Settings
           {...this.props}
@@ -118,7 +118,7 @@ class Root extends Component {
           navigator={navigator}
         />
       );
-    }
+    }*/
     if (routeId === "trips") {
       return (
         <Trips

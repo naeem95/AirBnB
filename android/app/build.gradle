@@ -87,7 +87,7 @@ android {
     buildToolsVersion "23.0.1"
 
     defaultConfig {
-        applicationId "com.app"
+        applicationId "com.airbnb"
         minSdkVersion 16
         targetSdkVersion 22
         versionCode 1
