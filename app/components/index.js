@@ -148,7 +148,6 @@ class Root extends Component {
           ref="drawer"
           tapToClose={true}
           type="overlay"
-          tapToClose={true}
           openDrawerOffset={0.2}
           panCloseMask={0.2}
           content={
